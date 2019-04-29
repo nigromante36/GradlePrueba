@@ -28,3 +28,35 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
+tasks.create(name: 'prueba1') << {
+   println "|"
+   println "||"
+   println "|||"
+   println "||||"
+   println "|||||"
+   println "||||||"
+   println "|||||||"
+   println "||||||"
+   println "|||||"
+   println "||||"
+   println "|||"
+   println "||"
+   println "|"
+}
+
+tasks.create(name: 'prueba2') << {
+   println "°|°"
+   println "°|°|°"
+   println "°|°|°|°"
+   println "||||"
+   println "|°||°||"
+   println "|||°|||"
+   println "|||||||"
+   println "|°||°||°|"
+   println "|||°||"
+   println "||||"
+   println "°|°|°|°"
+   println "||"
+   println "|°"
+ }
